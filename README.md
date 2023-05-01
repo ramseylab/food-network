@@ -17,7 +17,7 @@ and
 
 - Install Neo4j Enterprise Edition version 5.7
 - In `neo4j.conf`, set `dbms.memory.transaction.total.max=1024m`.
-- Start the Neo4j server and set up an empty database with username password `food-network`
+- Start the Neo4j server and set up an empty database with username `neo4j` and password `1337`.
 - Install the APOC plug-in version 5.7
 - Install Neo4j shell and make sure that `cypher-shell` is in your bash path
 - In bash: `./run-make-food-database.sh`
