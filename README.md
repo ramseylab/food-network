@@ -20,4 +20,5 @@ and
 - Start the Neo4j server and set up an empty database with username password `food-network`
 - Install the APOC plug-in version 5.7
 - Install Neo4j shell and make sure that `cypher-shell` is in your bash path
-- 
+- In bash: `./run-make-food-database.sh`
+
