@@ -31,4 +31,4 @@ and
 call apoc.cypher.runFile('https://raw.githubusercontent.com/ramseylab/food-network/main/make-food-database.cql');
 ```
 
-which runs the script [`make-food-database.cql` (github)](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql).
+which runs the script [`make-food-database.cql`](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql).
