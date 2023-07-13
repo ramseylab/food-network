@@ -1,5 +1,8 @@
 # food-network
-This software project area contains code for creating a Neo4j network of information about recipes and ingredients (see credits)
+Welcome, ISMB Tutorial students!  This software project area contains code for
+creating a Neo4j network of information about recipes and ingredients (see
+[Credits](#credits)). To get started, jump to 
+[Installation steps - Neo4j sandbox](#installation-steps---neo4j-sandbox).
 
 # Credits
 This graph database is based on the work of 
