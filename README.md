@@ -14,16 +14,6 @@ Thanks also to Chris Plaisier and David Koslicki for help with Neo4j.
 - Bash
 - Cypher shell
 
-# Installation steps - local Neo4j installation
-
-- Install Neo4j Enterprise Edition version 5.7
-- In `neo4j.conf`, set `dbms.memory.transaction.total.max=1024m`.
-- Start the Neo4j server and set up an empty database with username `neo4j` and password `1337`.
-- Install the APOC plug-in version 5.7
-- Install Neo4j shell and make sure that `cypher-shell` is in your bash path
-- In bash: `./run-make-food-database.sh`
-
-
 # Installation steps - Neo4j sandbox
 
 - In the Neo4j sandbox browser, run this Cypher command:
@@ -33,4 +23,14 @@ call apoc.cypher.runFile('https://raw.githubusercontent.com/ramseylab/food-netwo
 ```
 
 which runs each Cypher statement in the file [`make-food-database.cql`](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql), one at a time, through the Neo4j query processor.
+
+# Installation steps - local Neo4j database
+
+- Install Neo4j Enterprise Edition version 5.7
+- In `neo4j.conf`, set `dbms.memory.transaction.total.max=1024m`.
+- Start the Neo4j server and set up an empty database with username `neo4j` and password `1337`.
+- Install the APOC plug-in version 5.7
+- Install Neo4j shell and make sure that `cypher-shell` is in your bash path
+- In bash: `./run-make-food-database.sh`
+
 
