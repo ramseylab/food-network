@@ -1,3 +1,7 @@
+// Creates a Neo4j database of recipes and their ingredients, from six
+// character-separated-value (CSV) files
+// Stephen Ramsey, Oregon State University
+
 // drop all indexes
 CALL apoc.schema.assert({},{},true) YIELD label, key RETURN *;
 
