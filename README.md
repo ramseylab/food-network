@@ -1,11 +1,12 @@
 # food-network
-Neo4j network of information about recipes and ingredients (h/t Rik Van Bruggen and Yong-Yeol Ahn)
+This software project area contains code for creating a Neo4j network of information about recipes and ingredients (see credits)
 
-# Credit
+# Credits
 This graph database is based on the work of 
 [Rik Van Bruggen](https://blog.bruggen.com/2013/12/fascinating-food-networks-in-neo4j.html) 
 and
 [Yong-Yeol Ahn](http://www.yongyeol.com).
+Thanks also to Chris Plaisier and David Koslicki for help with Neo4j.
 
 # Requirements
 - Neo4j 5.5 or 5.7
@@ -31,4 +32,5 @@ and
 call apoc.cypher.runFile('https://raw.githubusercontent.com/ramseylab/food-network/main/make-food-database.cql');
 ```
 
-which runs the script [`make-food-database.cql`](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql).
+which runs each Cypher statement in the file [`make-food-database.cql`](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql) into the Neo4j query processor, one at a time.
+
