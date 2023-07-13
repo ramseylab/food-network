@@ -32,5 +32,5 @@ Thanks also to Chris Plaisier and David Koslicki for help with Neo4j.
 call apoc.cypher.runFile('https://raw.githubusercontent.com/ramseylab/food-network/main/make-food-database.cql');
 ```
 
-which runs each Cypher statement in the file [`make-food-database.cql`](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql) into the Neo4j query processor, one at a time.
+which runs each Cypher statement in the file [`make-food-database.cql`](https://github.com/ramseylab/food-network/blob/main/make-food-database.cql), one at a time, through the Neo4j query processor.
 
