@@ -74,3 +74,11 @@ CALL dbms.components()
 // Slide 56: View your memory usage
 :sysinfo
 
+// Slide 58:  How many recipes are there, by source?
+match (s:RECIPE_SOURCE)-[p:IS_SOURCE_OF]->(r:RECIPE) 
+return distinct s.name, count(*) as c order by c desc;
+
+// Slide 59: How many recipes are there, by region?
+match (n:RECIPE)-[r:OF_CUISINE]-(m:CUISINE)-[s:LOCATED_IN]->(p:AREA) 
+return distinct p.name, count(*) as c 
+order by c desc;
